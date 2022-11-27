@@ -6,7 +6,7 @@ class NoteItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
+    return GestureDetector(//allow on tab container of notes route edit
       onTap: () {
         Navigator.push(
           context,
