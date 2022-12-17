@@ -18,7 +18,7 @@ class NoteItem extends StatelessWidget {
       child: Container(
         decoration: BoxDecoration(
           color: const Color(0xffFFCC80),
-          borderRadius: BorderRadius.circular(16),
+          borderRadius: BorderRadius.circular(20),
         ),
         padding: const EdgeInsets.only(left: 16, top: 24, bottom: 24),
         child: Column(
@@ -35,7 +35,7 @@ class NoteItem extends StatelessWidget {
               subtitle: Padding(
                 padding: const EdgeInsets.symmetric(vertical: 16),
                 child: Text(
-                  'Build your career with tharwat samy',
+                  'Build your career with nouran',
                   style: TextStyle(
                     fontSize: 18,
                     color: Colors.black.withOpacity(.4),
@@ -52,11 +52,11 @@ class NoteItem extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 24),
+              padding: const EdgeInsets.symmetric(horizontal: 14),
               child: Text(
                 'May 21,2022',
                 style: TextStyle(
-                  color: Colors.black.withOpacity(.4),
+                  color: Colors.black.withOpacity(.9),
                 ),
               ),
             )
